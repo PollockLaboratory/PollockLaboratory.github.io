@@ -12,11 +12,19 @@ color:
 # Footer settings
 footer: The Pollock Laboratory
 
+about:
+  - title: publications
+    icon: book
+    url: http://github.com/PollockLaboratory/Publications
+  - title: courses
+    icon: university
+    url: http://github.com/PollockLaboratory/Courses
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
     icon: github
-    url: https://github.com/PollockLaboratory
+    url: http://github.com/PollockLaboratory
   - title: email
     icon: envelope
     url: mailto:david.pollock@ucdenver.edu

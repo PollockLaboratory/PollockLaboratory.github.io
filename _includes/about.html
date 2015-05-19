@@ -5,7 +5,13 @@
                 <h2>About The Pollock Laboratory</h2>
                 <p>We are in the beautiful state of Colorado exploring evolution using many different techniques.</p>
                 <p>Our dedicated principle investigator is <a href="http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Pollock.aspx">David D. Pollock</a></p>
-		<p>We also host a few <a href="https://github.com/PollockLaboratory/Courses">courses</a> that may interest you or check out a list of our <a href="https://github.com/PollockLaboratory/Publications">publications</a>.</p>
+                <ul class="list-inline banner-social-buttons">
+                    {% for network in site.about %}
+                    <li>
+                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.icon }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
         </div>
     </section>
