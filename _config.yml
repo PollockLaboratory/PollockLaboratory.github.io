@@ -28,6 +28,9 @@ social:
   - title: github
     icon: github
     url: http://github.com/PollockLaboratory
+  - title: bluesky
+    icon: bluesky
+    url: @genomesevolve.bsky.social
   - title: email
     icon: envelope
     url: mailto:david.pollock@CUAnschutz.edu
