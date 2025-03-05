@@ -13,6 +13,9 @@ color:
 footer: The Pollock Laboratory
 
 about:
+  - title: main
+    icon: book
+    url: http://github.com/PollockLaboratory  
   - title: publications
     icon: book
     url: http://github.com/PollockLaboratory/Publications
