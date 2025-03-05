@@ -27,7 +27,7 @@ social:
     url: http://github.com/PollockLaboratory
   - title: email
     icon: envelope
-    url: mailto:david.pollock@ucdenver.edu
+    url: mailto:david.pollock@CUAnschutz.edu
 
 # Build settings
 markdown: kramdown
